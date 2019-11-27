@@ -1,4 +1,4 @@
-Repositório de exemplo
+
 Para configurar o GIT em seu computador:
 
 Passo 1 - Executar o programa "Git Bash"
@@ -82,6 +82,7 @@ Pronto!
 O seu repositório já está configurado e pronto para uso.
 
 Comandos do GIT
+
 Para criar um novo repositorio local:
 // para iniciar o repositório
 git init
@@ -142,21 +143,6 @@ Configuração
 Geral
 As configurações do GIT são armazenadas no arquivo .gitconfig localizado dentro do diretório do usuário do Sistema Operacional (Ex.: Windows: e:\jogos ou *nix /home/jogos).
 
-As configurações realizadas através dos comandos abaixo serão incluídas no arquivo citado acima.
-
-Setar usuário
-git config --global user.name "Daniel"
-Setar email
-git config --global user.email "daniel.fb.jr@gmail.com"
-Setar editor
-git config --global core.editor vim
-Setar ferramenta de merge
-git config --global merge.tool vimdiff
-Setar arquivos a serem ignorados
-git config --global core.excludesfile ~/.gitignore
-Listar configurações
-git config --list
-Ignorar Arquivos
 Os nomes de arquivos/diretórios ou extensões de arquivos listados no arquivo .gitignore não serão adicionados em um repositório. Existem dois arquivos .gitignore, são eles:
 
 Geral: Normalmente armazenado no diretório do usuário do Sistema Operacional. O arquivo que possui a lista dos arquivos/diretórios a serem ignorados por todos os repositórios deverá ser declarado conforme citado acima. O arquivo não precisa ter o nome de .gitignore.
